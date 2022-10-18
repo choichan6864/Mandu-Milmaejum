@@ -60,6 +60,23 @@ body {
     color: black;
 }
 
+.menu-button {
+    height: 81px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    line-height: 5px;
+    width: 81px;
+    position: fixed;
+}
+
+@media screen and (max-width:1000px) {
+    .menu-button {
+        display: flex;
+    }
+}
+
 .logo {
     align-self: center;
     position: fixed;
